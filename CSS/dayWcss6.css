@@ -1,0 +1,26 @@
+.div1 {
+  background-color: blanchedalmond;
+  height: 50vh;
+  width: 50vh;
+  margin: 120px;
+  border-radius: 20px;
+  transition: 1s;
+  transition-timing-function: ease;
+}
+.div1:hover {
+  transform: rotate(45deg) scale(1.2);
+
+  /* skew(20deg,10deg) */
+}
+
+#alldiv {
+  height: 50vh;
+  width: 50vh;
+  background-color: antiquewhite;
+  margin: 20px;
+  transition: ease 1s;
+}
+#alldiv:hover {
+  transform: translate(300px, 300px) rotate(45deg);
+  background-color: black;
+}

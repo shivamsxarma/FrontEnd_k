@@ -1,0 +1,66 @@
+.Ah2{
+    margin-left: 47%;
+}
+
+.div1{
+    position: relative;
+display: flex;
+    background-color: antiquewhite;
+    height: 80vh;
+    width: 70vh;
+    border-radius: 15px;
+    border-style:dotted;
+    margin-left: 35%;
+    margin-top: 3%;
+    
+}
+.img1{
+    height: 28vh;
+    width: 69.9vh;
+  
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: 29%;
+}
+
+.Bh2{
+    position: absolute;
+    margin-top: 47%;
+    height: 20px;
+    margin-left: 36%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Bh3{
+    position: absolute;
+    
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+     margin-top: 60%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.div3
+{
+    height: 7vh;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(54, 67, 56);
+    position: absolute;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    
+}

@@ -1,0 +1,53 @@
+#div16 {
+  background-color: rgb(208, 159, 94);
+  height: 100vh;
+  width: 100vh;
+  padding: 25px;
+  outline: color(srgb red rgb(47, 220, 47) blue);
+  outline-width: 10px;
+  outline-style: dashed;
+  outline-offset: 5px;
+  text-align: center;
+  text-decoration: line-through;
+  text-transform: uppercase;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#div17 {
+  background-color: rgb(98, 182, 255);
+  height: 100vh;
+  width: 100vh;
+  padding: 25px;
+  outline: color(srgb red rgb(47, 220, 47) blue);
+  outline-width: 10px;
+  outline-style: dashed;
+  outline-offset: 5px;
+  text-align: center;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+#a1:link {
+  color: rgb(40, 37, 32);
+}
+#a1:visited {
+  color: rgb(181, 126, 24);
+}
+#a1:hover {
+  color: rgb(208, 36, 36);
+}
+#a1:active {
+  color: rgb(59, 162, 199);
+}
+.div3::first-line {
+  color: blueviolet;
+}
+
+ul {
+  color: rgb(177, 35, 147);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    list-style: decimal-leading-zero;
+font-size: large;
+}
+
+

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shivam Sharma — Resume</title>
+  <style>
+    :root{
+      --accent:#f59e0b; /* amber */
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --glass: rgba(255,255,255,0.6);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#ffffff);color:#111}
+
+    /* Top navbar */
+    .navbar{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.06);position:sticky;top:0;z-index:10}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#ef4444);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    .brand h1{font-size:16px;margin:0}
+    .nav-links{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    .nav-links a{text-decoration:none;color:var(--muted);font-weight:600}
+    .nav-links a:hover{color:#111}
+
+    /* Container */
+    .container{max-width:1000px;margin:28px auto;padding:18px}
+    .grid{display:grid;grid-template-columns:320px 1fr;gap:22px}
+
+    /* Left column */
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+    .profile{display:flex;flex-direction:column;align-items:center;gap:12px}
+    .avatar{width:128px;height:128px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#ef4444);display:flex;align-items:center;justify-content:center;color:white;font-size:40px;font-weight:700}
+    .name{font-size:20px;font-weight:700;margin:0}
+    .title{color:var(--muted);margin:0;font-size:14px}
+    .contact{margin-top:8px;font-size:14px;color:var(--muted)}
+    .section-title{font-size:13px;font-weight:700;margin-bottom:10px;color:var(--muted);text-transform:uppercase}
+    .badge{display:inline-block;background:var(--glass);padding:6px 10px;border-radius:999px;margin-right:8px;font-weight:600}
+
+    /* Right column */
+    .overview{display:flex;flex-direction:column;gap:12px}
+    .summary{line-height:1.5;color:#374151}
+
+    .job{margin-bottom:12px}
+    .job h3{margin:0;font-size:16px}
+    .job .meta{color:var(--muted);font-size:13px}
+    .job p{margin:8px 0 0 0;color:#374151}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2ff;padding:8px 10px;border-radius:8px;font-weight:600;font-size:13px}
+
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .project{background:linear-gradient(180deg,#fff, #fbfbff);padding:12px;border-radius:10px;border:1px solid rgba(15,23,42,0.03)}
+    .project h4{margin:0 0 6px 0;font-size:14px}
+    .project p{margin:0;color:var(--muted);font-size:13px}
+
+    /* Footer actions */
+    .actions{display:flex;gap:10px;margin-top:10px}
+    .btn{padding:10px 14px;border-radius:10px;border:0;cursor:pointer;font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#ef4444);color:white}
+    .btn-ghost{background:transparent;border:1px solid rgba(15,23,42,0.06)}
+
+    /* Responsive */
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr;}
+      .nav-links{display:none}
+      .container{padding:12px}
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <div class="logo">SS</div>
+      <div>
+        <h1 style="font-size:15px;margin:0">Shivam Sharma</h1>
+        <div style="font-size:12px;color:var(--muted)">MERN Full‑Stack Developer</div>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <!-- LEFT -->
+      <aside class="card">
+        <div class="profile">
+          <div class="avatar">S</div>
+          <h2 class="name">Shivam Sharma</h2>
+          <p class="title">MERN Full‑Stack Developer — Regex Software (Intern)</p>
+          <p class="contact">Ajmer, Rajasthan • shivamsxarma@gmail.com • +91 6377863645</p>
+
+          <div style="width:100%;margin-top:12px">
+            <div class="section-title">Skills</div>
+            <div class="skills">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">Express</span>
+              <span class="skill">MongoDB</span>
+              <span class="skill">Git</span>
+            </div>
+          </div>
+
+          <div style="width:100%;margin-top:14px">
+            <div class="section-title">Languages</div>
+            <div class="badge">English</div>
+            <div class="badge">Hindi</div>
+          </div>
+
+        </div>
+      </aside>
+
+      <!-- RIGHT -->
+      <section class="overview">
+        <div id="about" class="card">
+          <div class="section-title">About</div>
+          <p class="summary">MERN full‑stack developer with hands‑on experience building responsive web apps and UI clones. Currently interning at Regex Software (Jaipur), studying at SKNAU Jobner, and focused on building clean, accessible interfaces and scalable backend APIs. Passionate about creating projects like ChatGPT / Google clones and improving code quality through best practices.</p>
+          <div class="actions">
+            <button class="btn btn-primary" onclick="window.print()">Print / Save</button>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/shivamsxarma/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div id="experience" class="card">
+          <div class="section-title">Experience</div>
+          <div class="job">
+            <h3>Intern — Regex Software, Jaipur</h3>
+            <div class="meta">2024 — Present</div>
+            <p>Worked on MERN stack projects, building UI components, implementing REST APIs, and collaborating on team projects using Git.</p>
+          </div>
+        </div>
+
+        <div id="projects" class="card">
+          <div class="section-title">Projects</div>
+          <div class="projects">
+            <div class="project">
+              <h4>ChatGPT Clone</h4>
+              <p>Frontend built with React and custom UI; simulated AI responses. Focus on UX and state management.</p>
+            </div>
+            <div class="project">
+              <h4>Google Clone</h4>
+              <p>Responsive search UI with routing and sample results. Practiced layout and responsive design.</p>
+            </div>
+            <div class="project">
+              <h4>Portfolio / UI Clones</h4>
+              <p>Multiple website clones and UI-focused projects to showcase design and CSS skills.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="card">
+          <div class="section-title">Education</div>
+          <div class="job">
+            <h3>SKNAU, Jobner</h3>
+            <div class="meta">Degree / Course — Years</div>
+            <p>Relevant coursework: Web Development, Data Structures, Databases.</p>
+          </div>
+        </div>
+
+        <div id="contact" class="card">
+          <div class="section-title">Contact</div>
+          <p style="margin:0">Email: <strong>shivamsxarma@gmail.com</strong></p>
+          <p style="margin:6px 0 0 0">Phone: <strong>+91 6377863645</strong></p>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <footer style="text-align:center;padding:20px;color:var(--muted);font-size:13px">Made with ❤️ — edit this file to personalize further</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+.divsp{
+    background-color: blue;
+}
+
+.divsp2{
+    height:200px;
+    
+    background-image: url('button1.png');
+    background-size: auto;
+    border-width: 50px ;
+    border-color: antiquewhite;
+    border-radius: ;
+   
+
+} 
+
+.body1{
+  
+    /* background-image: url('images.jpg'); */
+     background-attachment: scroll;
+
+}

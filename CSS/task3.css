@@ -1,0 +1,29 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+}
+
+.ul1{
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+    margin-left: 1050px;
+  
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    
+    color: rgb(216, 51, 51);
+}
+
+.h2a{
+  margin-left: 20px;
+}
