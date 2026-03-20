@@ -140,3 +140,91 @@
  
 
 //output-undefined
+
+// 14. Self-Invoking Function with Closure 
+ 
+ 
+// (function() { 
+//   var x = 5; 
+// })(); 
+// console.log(x); 
+ 
+// ..output error 
+
+// 15. Closure and Returning Functions 
+ 
+ 
+// function multiplierFactory(factor) { 
+//   return function(num) { 
+// 	return num * factor; 
+//   }; 
+// } 
+// let double = multiplierFactory(2); 
+// console.log(double(4)); 
+
+//output-8
+
+// 16. Block Scope and Let 
+ 
+ 
+// let x = 5; 
+// function checkScope() { 
+//   let x = 10; 
+//   console.log(x); 
+// } 
+// checkScope(); 
+// console.log(x); 
+
+ //output-8
+
+//  17. Functions and Parameter Hoisting 
+ 
+ 
+// function hoistParam(param) { 
+//   console.log(param); 
+//   var param = 20;
+   
+// } 
+// hoistParam(10); 
+
+//output 10
+
+// 18. Nested Functions and Scope Chain 
+ 
+ 
+// let x = 1; 
+// function outer() { 
+//   let x = 2; 
+//   function inner() { 
+// 	console.log(x); 
+//   } 
+//   inner(); 
+// } 
+// outer(); 
+
+//output - 2
+// 19. Arguments Object 
+ 
+ 
+// function testArgs(a, b, c) { 
+//   console.log(arguments[0], arguments[1], arguments[2]); 
+// } 
+// testArgs(1, 2); 
+
+// output - 1 2 undefined
+ 
+//  20. Variable Shadowing in Blocks 
+ 
+ 
+let x = 5; 
+{ 
+  let x = 10; 
+  console.log(x); 
+} 
+console.log(x); 
+ 
+
+ 
+
+
+
