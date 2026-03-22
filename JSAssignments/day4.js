@@ -99,21 +99,52 @@
 // } 
 
  
-function outerFunc() { 
-  let count = 0; 
-  return { 
-	increment: function() { 
-  	count++; 
-  	return count; 
-	}, 
-	decrement: function() { 
-  	count--; 
-  	return count; 
-	} 
-  }; 
-} 
+// function outerFunc() { 
+//   let count = 0; 
+//   return { 
+// 	increment: function() { 
+//   	count++; 
+//   	return count; 
+// 	}, 
+// 	decrement: function() { 
+//   	count--; 
+//   	return count; 
+// 	} 
+//   }; 
+// } 
  
-let counter = outerFunc(); 
-console.log(counter.increment()); 
-console.log(counter.decrement()); 
+// let counter = outerFunc(); 
+// console.log(counter.increment()); 
+// console.log(counter.decrement()); 
 
+// let a = 5; 
+// { 
+//   let a = 10; 
+//   console.log(a); 
+// } 
+// console.log(a); 
+// function outerFunc() { 
+//   var x = 10; 
+//   function innerFunc() { 
+// 	console.log(x); 
+//   } 
+//   innerFunc(); 
+// } 
+// outerFunc(); 
+ 
+ 
+// var a = 10; 
+// function testVar() { 
+//   var a = 20; 
+//   console.log(a); 
+// } 
+// testVar(); 
+// console.log(a); 
+
+function testScope() { 
+  console.log(x); 
+  var x = 10; 
+  console.log(x); 
+} 
+testScope(); 
+ 
