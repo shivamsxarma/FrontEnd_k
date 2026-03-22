@@ -68,16 +68,21 @@
 // 69. Scope Chain in Nested Functions 
  
  
-let a = 1; 
-function outer () { 
-  let b = 2; 
-  function inner() { 
-	console.log(a, b); 
-  } 
-  inner(); 
-} 
-outer(); 
+// let a = 1; 
+// function outer () { 
+//   let b = 2; 
+//   function inner() { 
+// 	console.log(a, b); 
+//   } 
+//   inner(); 
+// } 
+// outer(); 
  
+var a = 15 ;
+function abc(){
+  console.log(a)
+}
+abc()
  
 // Question: What will be printed and why? Explain how the scope chain works in nested functions. 
  
